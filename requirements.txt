@@ -1,0 +1,8 @@
+streamlit
+tensorflow-cpu
+numpy
+requests
+groq
+Pillow
+fpdf
+streamlit-option-menu
