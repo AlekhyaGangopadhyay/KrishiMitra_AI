@@ -24,7 +24,7 @@ GitHub Tags (Topics)
 | Component              | Model Architecture              | Primary Dataset               | Key Metrics                 |
 | :----------------------| :------------------------------ | :---------------------------- | :-------------------------- |
 | **Disease Detection**  | MobileNetV2 (Transfer Learning) | PaddyDoctor & PlantVillage    | 94.2%+ Accuracy             |
-| **Crop Recommendation**| Random Forest Regressor         | Soil Nutrient Dataset (India) | R² Score Optimization 99.6% |
+| **Crop Recommendation**| Random Forest Regressor         | Soil Nutrient Dataset (India) | 99.6% Accuracy              |
 | **AI Consultation**    | Llama-3.3-70B (Groq)            | Specialized Agronomy Tuning   | Ultra-Low Latency Inference |
 
 ### 📊 Dataset Details
