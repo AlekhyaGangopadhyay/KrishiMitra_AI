@@ -17,7 +17,20 @@ GitHub Tags (Topics)
 * **💹 Live Mandi Pulse**: Integration with Government of India APIs for real-time market rates in West Bengal.
 * **💬 AI Agri-Advisor**: High-speed LLM integration (Groq Llama-3.3) for organic and chemical treatment advice.
 
----
+## 📊 Dataset Repository
+
+The complete, cleaned, and split dataset used to train the KrishiMitra AI models is hosted on Hugging Face. This includes pre-processed images for over 40 disease classes across Paddy, Tomato, Potato, and Wheat.
+
+| Repository               | Link                                                                                    |
+| :----------------------- | :---------------------------------------------------------------------------------------|
+| **Hugging Face Dataset** | [🤗 iamalekhya/KrishiMitraAI](https://huggingface.co/datasets/iamalekhya/KrishiMitraAI) |
+
+### 🛠️ Using the Data
+You can load this dataset directly into your training pipeline using the `datasets` library:
+```python
+from datasets import load_dataset
+dataset = load_dataset("iamalekhya/KrishiMitraAI")
+
 
 ## 🧠 Model & Dataset Specifications
 
@@ -125,3 +138,24 @@ streamlit run app.py --server.headless true
 2.  **Visionary Thinking**: The **Future Roadmap** demonstrates that you see this as a scalable business or social solution, which is a major scoring criterion in hackathons.
 
 ```
+---
+
+## 🌟 Support the Project
+
+If you found **KrishiMitra AI** helpful for your research or interesting for the future of AgTech, please consider giving it a **Star**! It helps the project reach more developers and researchers.
+
+1. Navigate to the top of this page.
+2. Click the **⭐ Star** button in the upper right corner.
+
+---
+
+## 🤝 Connect with Me
+
+I am always open to discussing **Machine Learning**, **Sustainability**, or **AgTech** collaborations. Feel free to reach out!
+
+* **📧 Email:** [iamalekhya7@gmail.com](mailto:iamalekhya7@gmail.com)
+* **💼 LinkedIn:** [linkedin.com/in/iamalekhya](https://www.linkedin.com/in/alekhya-gangopadhyay-5a199a320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+* **🤗 Hugging Face:** [huggingface.co/iamalekhya](https://huggingface.co/iamalekhya)
+
+---
+*Created with ❤️ by Alekhya Gangopadhyay in Kolkata, WB.*
